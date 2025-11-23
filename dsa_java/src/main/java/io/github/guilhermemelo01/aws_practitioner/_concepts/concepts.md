@@ -154,11 +154,64 @@ Which AWS feature or service should the company use?
 
 ## CONCEPTS
 
+### ``AWS MANAGED SERVICES (AMS)``
+- AWS Managed Services (AMS) helps you adopt AWS at scale and operate more efficiently and securely. We leverage
+standard AWS services and offer operational guidance with specialized automations, skills,
+and experience that are contextual to your environment and applications.
+
+### ``AWS OUTPOSTS``
+- Low-latency access to on-premises systems 
+- Local data processing 
+- Data residency 
+- Easier migration from on-premises to the cloud
+- Fully managed service
+
+### ``Amazon Redshift Serverless``
+- Easily run analytics workloads of any size without managing data warehouse infrastructure. Developers, data scientists,
+and data analysts can work across data warehouses and data lakes to build reporting and dashboarding applications,
+perform real-time analytics, collaborate on data, and build and train machine learning (ML) models.
+
+### ``CLOUD HSM``
+- O AWS CloudHSM permite gerenciar e acessar as chaves em hardware validado pelos Padrões Federais de Processamento de Informações (FIPS), protegidas com instâncias HSM de locação única e de propriedade do cliente, executadas na sua própria nuvem privada virtual (VPC).
+
+### ``AWS BATCH``
+- O Batch é grupo de tarefas que devem ser executadas a mesmo tempo.
+- Processamento em lote para treinamento, simulação e análise de modelos de ML em qualquer escala
+
+### ``AWS LIGHTSAIL``
+- Lightsail gets you started quickly with preconfigured Linux and Windows application stacks and an intuitive management console.
+
+### ``AWS LAMBDA``
+- O Amazon Web Services (AWS) Lambda é um serviço de computação que executa seu código em resposta a eventos e gerencia
+  automaticamente os recursos computacionais para você, tornando mais fácil a implantação de aplicações que escalam
+  individualmente em resposta a novas informações.
+
+### ``Amazon Comprehend``
+- O AWS Comprehend é utilizado para interpretar textos e frases.
+
+### ``Amazon Lex``
+- O Amazon Lex é utilizado para entender e transcrever o ASR para texto.
+
+### ``Amazon Kendra``
+- Amazon Kendra is an AWS service designed for building intelligent search capabilities into applications.
+It supports natural language queries and allows you to search for text in documents stored in various sources,
+including Amazon S3. Kendra is optimized for enterprise-scale data and can index and search across different 
+types of content, making it suitable for searching text in documents.
+
+### ``Amazon Textract``
+- O Amazon Textract é utilizado para extrair imagens em arquivos JSON.
+
+### ``Amazon Sagemaker``
+- O Amazon Sagemaker é utilizado por DS/Developers para criar ML e A.I.
+
+### ``Fargate``
+- AWS Fargate is a serverless, pay-as-you-go compute engine for containers that works with Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS). It allows you to run containers without managing the underlying virtual machines or clusters, as AWS handles server management, resource allocation, and scaling for you. You only pay for the CPU and memory resources your containers consume.
+
 ### ``Service Quotas``
 - Service Quotas is an AWS service that allows users to view, manage, and request increases in service limits for various AWS services. Service limits are predefined limits set by AWS on the usage of specific resources or services within an AWS account.
 
 ### ``AWS Config``
-- AWS service is used to track, record, and audit configuration changes made to AWS resources
+- AWS service is used to track, record, and audit configuration changes made to AWS resources.
 
 ### ``AWS KMS``
 - Use AWS KMS to encrypt data across your AWS workloads, digitally sign data, encrypt within your applications using
@@ -173,11 +226,18 @@ Which AWS feature or service should the company use?
 ### ``AWS Shield``
 - AWS Shield is a managed distributed denial of service (DDoS) protection service that safeguards applications running on AWS.
 
-### ``AWS DataSync``
+### ``AWS APPLICATION MIGRATION SERVICE``
+- AWS Application Migration Service Used for migrating servers and applications, not for transferring unstructured data.
+
+### ``AWS MIGRATION HUB``
+- AWS Migration Hub Tracks migration progress but does not handle the actual data transfer.
+
+### ``AWS DATASYNC``
 - Securely discover and migrate your data to AWS with end-to-end security, including data encryption and data integrity validation.
 
 ### ``Amazon Connect``
-- Amazon Connect is a cloud-based customer contact center service offered by Amazon Web Services (AWS), enabling businesses to manage customer interactions through voice, chat, and email, all within a single platform.
+- Amazon Connect is a cloud-based customer contact center service offered by Amazon Web Services (AWS), 
+enabling businesses to manage customer interactions through voice, chat, and email, all within a single platform.
 
 ### ``AWS Identity and Access Management Access Analyzer``
 - AWS Identity and Access Management Access Analyzer - It helps identify and analyze resource access policies including those shared with other AWS accounts.
@@ -186,7 +246,8 @@ Which AWS feature or service should the company use?
 - You can generate and download a credential report that lists all users in your account and the status of their various credentials, including passwords, access keys, and MFA devices. You can get a credential report from the AWS Management Console, the AWS SDKs and Command Line Tools, or the IAM API.
 
 ### ``AWS CAF``
-- Operations Perspective Capabilities 
+  - Operations Perspective Capabilities 
+    - The Operations perspective in the AWS CAF focuses on managing and monitoring the performance and health of cloud resources and services
   - Observability
   - Event management (AIOps)
   - Incident and problem management
@@ -309,8 +370,7 @@ Which AWS feature or service should the company use?
   to focus on their code. Elastic Beanstalk utilizes AWS services like EC2, S3, and Elastic Load Balancing to create and
   manage the environment for your application.
 
-``POLLY - AI Voice Generator``
-
+### ``POLLY - AI Voice Generator``
 - Amazon Polly is a fully-managed service that generates voice on demand, converting any text to
   an audio stream. Using deep learning technologies to convert articles, web pages, PDF documents,
   and other text-to-speech (TTS). Polly provides dozens of lifelike voices across a broad set of languages
@@ -347,7 +407,6 @@ Which AWS feature or service should the company use?
   while preventing inbound connections.
 
 ``Amazon Neptune``
-
 - Amazon Neptune is a managed graph database service provided by Amazon Web Services (AWS). It's designed to store and
   query billions of relationships with low latency. Neptune supports both property graphs (using Gremlin) and Resource
   Description Framework (RDF) data (using SPARQL). It's used in various applications like knowledge graphs,
